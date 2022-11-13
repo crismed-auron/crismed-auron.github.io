@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andre Marie Ampere</title>
+    <style>
+        html{
+                font-family: 'Times New Roman', Times, serif ;
+            }
+        body{
+                margin: 0;
+                background-color: #efefefef;
+            }
+        header{
+            background-color: black;
+            color: white;
+            padding: 3rem 2rem;
+            }
+        header h1{
+            font-size: 4rem;
+            text-align: center;
+            }
+        .principal{
+            width:700px;
+            margin: 0 auto;
+        }
+        section article{
+            transition: all 0.3s ease;
+            background-color: #fff;
+            margin: 1rem 0;
+            border-radius: 0.5rem;
+            padding: 0.25rem 0;
+            cursor: pointer;
+            
+        }
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .formulario{
+    width:1000px;
+    margin: 0 auto;
+    
+
+}
+
+.formulario label{
+    text-align: center;
+}
+
+.formulario textarea{
+    border-color: #AAAAAA #AAAAAA #CCCCCC;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 #ffffff, 0 1px 1px rgb(0 0 0 / 20%) inset;
+    height: auto;
+    margin: 0;
+    outline: medium none;
+    overflow: auto;
+    padding: 8px 10px;
+    width: 100%;
+}
+
+#author {
+    border-color: #AAAAAA #AAAAAA #CCCCCC;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 #ffffff, 0 1px 1px rgb(0 0 0 / 20%) inset;
+    margin: 0;
+    outline: medium none;
+    padding: 6px 8px;
+    vertical-align: middle;
+    width: 98%;
+}
+
+#email{
+    border-color: #AAAAAA #AAAAAA #CCCCCC;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 #ffffff, 0 1px 1px rgb(0 0 0 / 20%) inset;
+    margin: 0;
+    outline: medium none;
+    padding: 6px 8px;
+    vertical-align: middle;
+    width: 98%;
+}
+
+#submit{
+    font-size:10px;
+    font-weight:bold;
+    color:white;
+    background:#638cb5;
+    border:0px;
+    width:130px;
+    height:30px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    padding: 3rem;
+    color:white;
+}
+footer section{
+    float: right;
+}
+footer p{
+    margin: 0;
+}
+footer a{
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover{
+    color: cornflowerblue;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Andre Marie Ampere (1775-1836)</h1>
+    </header>
+    <section class="principal">
+        <article>
+            <h2>Historia</h2>
+            <p>
+                Andre Marie Ampere fue un matemático y físico francés. Estudió los efectos de la corriente eléctrica e inventó el solenoide. La unidad SI de corriente eléctrica (el amperio) lleva su nombre.
+            </p>
+            <img src="imgelec/3" alt="" width="700">
+        </article>
+        
+    </section>
+    <article class="formulario">
+            
+        <form action="" >
+            <label for="comentario">Deja una respuesta</label>
+            <textarea placeholder="Déjanos un comentario" name="" id="comentario" cols="30" rows="10"></textarea><br>
+            <label for="nombre">Nombre</label>
+            <input id="author" name="author" type="text" value="" size="30" maxlength="245" required=""><br>
+            <label for="correo">correo</label>
+            <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required=""><br>
+            <input type="checkbox" name="" id=""><label for="">GUARDA MI NOMBRE, CORREO ELECTRÓNICO Y WEB EN ESTE NAVEGADOR PARA LA PRÓXIMA VEZ QUE COMENTE.</label><br>
+            <input name="submit" type="submit" id="submit" class="btn btn-primary" value="Publicar el comentario">
+            
+        </form>
+    </article>
+    <footer>
+        <section>
+            
+            <a href="mailto:crismed@gmail.com">CRISTIAN MEDRANO</a>
+            
+            </section>
+            <p>INCOS 2022</p>
+    </footer>
+</body>
+</html>
